@@ -4,22 +4,28 @@ This README document aims to cover the main differences between [searx](https://
 
 If there are any mistakes or ambiguities in this document, feel free to open a pull request.
 
-## Brief Differences
+## Brief
+
+SearxNG has more features, plugins, engines, and language support. Bug fix turnaround time is generally faster. Also includes an updated user interface w/ Dark Mode and server metrics. searx has a stable codebase with less bugs (though engine integrations can still break), and now focuses engine/plugin integrations with a stricter stance on user privacy violations.
+
+## Details
 
 SearxNG is a fork of searx. At some point, a number of maintainers thought that new proposed features (specifically engine metrics) would encroach on user privacy, while others did not. Therefore, SearxNG was forked so that these features could be accepted. The searx and SearxNG project have not formally defined what constitutes a user privacy violation.
 
 While the searx README states it is not in maintenance mode, any major changes to the codebase are not generally accepted. Overall, the project appears to be considered "complete", and mainly engines addition/maintanence, plug-in addition/maintanence, or bug fixes are occuring at this time. 
 
-SearxNG is significantly much more active, based on the number of accepted pull requests into the project. With this, its expected that the code base is accepting changes to support accepted features. 
+SearxNG is significantly much more active, based on the number of accepted pull requests into the project. With this, its expected that the code base is accepting changes to support features accepted by the maintainers. 
 
 One aspect of searx and SearxNG is that they both rely on integrating with third party engines. These engines may or may not provide proper APIs or support for integration (i.e. may involve scraping sites). Therefore, engine integrations occasionally break as the source engine updates their end. With this, SearxNG generally has a faster engine integration fix speed than searx.
 
 ## Comparison Tables
 
+These comparison tables do not include all possible comparisons between the two projects, but may provide a quick details that are important in making a decision.
+
 | Project Structure | searx      | SearxNG |
 | ----------------- | ---------- | ------- |
 | Release Cycle     | Stable     | Fast    |
-| New Features      | Yes[^1]    | Yes     |
+| New Features      | Yes?[^1]   | Yes     |
 | New Engines       | Yes        | Yes     |
 
 
