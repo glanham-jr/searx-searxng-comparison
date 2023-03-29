@@ -4,6 +4,9 @@ This README document aims to cover the main differences between [searx](https://
 
 If there are any mistakes or ambiguities in this document, feel free to open a pull request.
 
+- [searx documentation](https://searx.github.io/searx/)
+- [SearxNG documentation](https://docs.searxng.org/)
+
 ## Brief
 
 SearxNG has more features, plugins, engines, and language support. Bug fix turnaround time is generally faster. Also includes an updated user interface w/ Dark Mode and server metrics. searx has a stable codebase with less bugs (though engine integrations can still break), and now focuses engine/plugin integrations with a stricter stance on user privacy violations.
