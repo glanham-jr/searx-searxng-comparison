@@ -30,8 +30,8 @@ One aspect of searx and SearxNG is that they both rely on integrating with third
 | Server Metrics 	          | No               | Yes[^2]              |
 | Translations   	          | Yes              | Yes w/ More Coverage |
 | JavaScript     	          | Not Required     | Not Required         |
-| Image Proxy    	          | Yes w/ Morty     | Yes                  |
-| Bot Blocker    	          | Yes w/ Filtron   | Yes                  |
+| Image Proxy    	          | Yes w/ [Morty](https://searx.github.io/searx/utils/filtron.sh.html) | Yes |
+| Bot Blocker    	          | Yes w/ [Filtron](https://searx.github.io/searx/utils/morty.sh.html) | Yes |
 | Url Blocker/Replacer            | No               | Yes                  |
 | Dark Mode                       | No               | Yes                  |
 | Right-to-Left Language Support  | No               | Yes                  |
